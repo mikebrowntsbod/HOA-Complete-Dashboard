@@ -151,7 +151,7 @@
                         <option value="Louisiana">Louisiana</option>
                         <option value="Maine">Maine</option>
                         <option value="Maryland">Maryland</option>
-                        <option> Mass</option>
+                        <option value="Massachusetts">Massachusetts</option>
                         <option value="Michigan">Michigan</option>
                         <option value="Minnesota">Minnesota</option>
                         <option value="Mississippi">Mississippi</option>
@@ -299,7 +299,7 @@
                         <option value="Louisiana">Louisiana</option>
                         <option value="Maine">Maine</option>
                         <option value="Maryland">Maryland</option>
-                        <option> Mass</option>
+                        <option value="Massachusetts">Massachusetts</option>
                         <option value="Michigan">Michigan</option>
                         <option value="Minnesota">Minnesota</option>
                         <option value="Mississippi">Mississippi</option>
