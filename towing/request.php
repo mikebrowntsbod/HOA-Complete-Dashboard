@@ -130,57 +130,57 @@
                      <input name="state" class="form-control" type="text" readonly value="Maryland">
                      <!--<select name="state" class="form-control selectpicker" <>
                         <option value=" " >Please select your state</option>
-                        <option>Alabama</option>
-                        <option>Alaska</option>
-                        <option >Arizona</option>
-                        <option >Arkansas</option>
-                        <option >California</option>
-                        <option >Colorado</option>
-                        <option >Connecticut</option>
-                        <option >Delaware</option>
-                        <option >District of Columbia</option>
-                        <option> Florida</option>
-                        <option >Georgia</option>
-                        <option >Hawaii</option>
-                        <option >daho</option>
-                        <option >Illinois</option>
-                        <option >Indiana</option>
-                        <option >Iowa</option>
-                        <option> Kansas</option>
-                        <option >Kentucky</option>
-                        <option >Louisiana</option>
-                        <option>Maine</option>
-                        <option >Maryland</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option  value="California">California</option>
+                        <option value="Colorado">Colorado</option>
+                        <option value="Connecticut">Connecticut</option>
+                        <option value="Delaware" >Delaware</option>
+                        <option value="DC" >District of Columbia</option>
+                        <option value="Florida"> Florida</option>
+                        <option value="Georgia" >Georgia</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Idaho">Idaho</option>
+                        <option value="Illinois">Illinois</option>
+                        <option value="Indiana">Indiana</option>
+                        <option value="Iowa">Iowa</option>
+                        <option value="Kansas"> Kansas</option>
+                        <option value="Kentucky">Kentucky</option>
+                        <option value="Louisiana">Louisiana</option>
+                        <option value="Maine">Maine</option>
+                        <option value="Maryland">Maryland</option>
                         <option> Mass</option>
-                        <option >Michigan</option>
-                        <option >Minnesota</option>
-                        <option>Mississippi</option>
-                        <option>Missouri</option>
-                        <option>Montana</option>
-                        <option>Nebraska</option>
-                        <option>Nevada</option>
-                        <option>New Hampshire</option>
-                        <option>New Jersey</option>
-                        <option>New Mexico</option>
-                        <option>New York</option>
-                        <option>North Carolina</option>
-                        <option>North Dakota</option>
-                        <option>Ohio</option>
-                        <option>Oklahoma</option>
-                        <option>Oregon</option>
-                        <option>Pennsylvania</option>
-                        <option>Rhode Island</option>
-                        <option>South Carolina</option>
-                        <option>South Dakota</option>
-                        <option>Tennessee</option>
-                        <option>Texas</option>
-                        <option> Uttah</option>
-                        <option>Vermont</option>
-                        <option>Virginia</option>
-                        <option >Washington</option>
-                        <option >West Virginia</option>
-                        <option>Wisconsin</option>
-                        <option >Wyoming</option>
+                        <option value="Michigan">Michigan</option>
+                        <option value="Minnesota">Minnesota</option>
+                        <option value="Mississippi">Mississippi</option>
+                        <option value="Missouri">Missouri</option>
+                        <option value="Montona">Montana</option>
+                        <option value="Nebraska">Nebraska</option>
+                        <option value="Nevada">Nevada</option>
+                        <option value="New Hampshire">New Hampshire</option>
+                        <option value="New Jersey">New Jersey</option>
+                        <option value="New Mexico">New Mexico</option>
+                        <option value="New York">New York</option>
+                        <option value="North Carolina">North Carolina</option>
+                        <option value="North Doakota">North Dakota</option>
+                        <option value="Ohio">Ohio</option>
+                        <option value="Oklahoma">Oklahoma</option>
+                        <option value="Oregon">Oregon</option>
+                        <option value="Pennsylvania">Pennsylvania</option>
+                        <option value="Rhode Island">Rhode Island</option>
+                        <option value="South Carolina">South Carolina</option>
+                        <option value="South Dakota">South Dakota</option>
+                        <option value="Tennesse">Tennessee</option>
+                        <option value="Texas">Texas</option>
+                        <option value="Utah">Utah</option>
+                        <option value="Vermont">Vermont</option>
+                        <option value="Virginia">Virginia</option>
+                        <option value="Washington">Washington</option>
+                        <option value="West Virginia">West Virginia</option>
+                        <option value="Wisconsin">Wisconsin</option>
+                        <option value="Wyomin">Wyoming</option>
                         </select>-->
                   </div>
                </div>
@@ -277,57 +277,58 @@
                         <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
                         <select name="state" class="form-control selectpicker" >
                            <option value=" " >Please select state</option>
-                           <option>Alabama</option>
-                           <option>Alaska</option>
-                           <option >Arizona</option>
-                           <option >Arkansas</option>
-                           <option >California</option>
-                           <option >Colorado</option>
-                           <option >Connecticut</option>
-                           <option >Delaware</option>
-                           <option >District of Columbia</option>
-                           <option> Florida</option>
-                           <option >Georgia</option>
-                           <option >Hawaii</option>
-                           <option >daho</option>
-                           <option >Illinois</option>
-                           <option >Indiana</option>
-                           <option >Iowa</option>
-                           <option> Kansas</option>
-                           <option >Kentucky</option>
-                           <option >Louisiana</option>
-                           <option>Maine</option>
-                           <option >Maryland</option>
-                           <option> Mass</option>
-                           <option >Michigan</option>
-                           <option >Minnesota</option>
-                           <option>Mississippi</option>
-                           <option>Missouri</option>
-                           <option>Montana</option>
-                           <option>Nebraska</option>
-                           <option>Nevada</option>
-                           <option>New Hampshire</option>
-                           <option>New Jersey</option>
-                           <option>New Mexico</option>
-                           <option>New York</option>
-                           <option>North Carolina</option>
-                           <option>North Dakota</option>
-                           <option>Ohio</option>
-                           <option>Oklahoma</option>
-                           <option>Oregon</option>
-                           <option>Pennsylvania</option>
-                           <option>Rhode Island</option>
-                           <option>South Carolina</option>
-                           <option>South Dakota</option>
-                           <option>Tennessee</option>
-                           <option>Texas</option>
-                           <option> Uttah</option>
-                           <option>Vermont</option>
-                           <option>Virginia</option>
-                           <option >Washington</option>
-                           <option >West Virginia</option>
-                           <option>Wisconsin</option>
-                           <option >Wyoming</option>
+                            <option value=" " >Please select your state</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option  value="California">California</option>
+                        <option value="Colorado">Colorado</option>
+                        <option value="Connecticut">Connecticut</option>
+                        <option value="Delaware" >Delaware</option>
+                        <option value="DC" >District of Columbia</option>
+                        <option value="Florida"> Florida</option>
+                        <option value="Georgia" >Georgia</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Idaho">Idaho</option>
+                        <option value="Illinois">Illinois</option>
+                        <option value="Indiana">Indiana</option>
+                        <option value="Iowa">Iowa</option>
+                        <option value="Kansas"> Kansas</option>
+                        <option value="Kentucky">Kentucky</option>
+                        <option value="Louisiana">Louisiana</option>
+                        <option value="Maine">Maine</option>
+                        <option value="Maryland">Maryland</option>
+                        <option> Mass</option>
+                        <option value="Michigan">Michigan</option>
+                        <option value="Minnesota">Minnesota</option>
+                        <option value="Mississippi">Mississippi</option>
+                        <option value="Missouri">Missouri</option>
+                        <option value="Montona">Montana</option>
+                        <option value="Nebraska">Nebraska</option>
+                        <option value="Nevada">Nevada</option>
+                        <option value="New Hampshire">New Hampshire</option>
+                        <option value="New Jersey">New Jersey</option>
+                        <option value="New Mexico">New Mexico</option>
+                        <option value="New York">New York</option>
+                        <option value="North Carolina">North Carolina</option>
+                        <option value="North Doakota">North Dakota</option>
+                        <option value="Ohio">Ohio</option>
+                        <option value="Oklahoma">Oklahoma</option>
+                        <option value="Oregon">Oregon</option>
+                        <option value="Pennsylvania">Pennsylvania</option>
+                        <option value="Rhode Island">Rhode Island</option>
+                        <option value="South Carolina">South Carolina</option>
+                        <option value="South Dakota">South Dakota</option>
+                        <option value="Tennesse">Tennessee</option>
+                        <option value="Texas">Texas</option>
+                        <option value="Utah">Utah</option>
+                        <option value="Vermont">Vermont</option>
+                        <option value="Virginia">Virginia</option>
+                        <option value="Washington">Washington</option>
+                        <option value="West Virginia">West Virginia</option>
+                        <option value="Wisconsin">Wisconsin</option>
+                        <option value="Wyomin">Wyoming</option>
                         </select>
                      </div>
                   </div>
