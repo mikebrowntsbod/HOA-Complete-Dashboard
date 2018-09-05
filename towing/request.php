@@ -386,6 +386,9 @@
                         <input type="checkbox" name="towReason" value="No Parking Permit" />No Parking Permit<br />
                         <input type="checkbox" name="towReason" value="Invalid Permit" />Invalid Permit<br />
                         <input type="checkbox" name="towReason" value="Parking In Reserve Spot" />Parking in Reserve Spot<br />
+                        <input type="checkbox" name="towReason" value="Parking In Fire Lane" />Parking in Fire Lane<br  />
+
+                        <input type="checkbox" name="towReason" value="Parking In No Parking Area" />Parking in No Parking Area<br  />
                         </label>
                      </div>
                   </div>
