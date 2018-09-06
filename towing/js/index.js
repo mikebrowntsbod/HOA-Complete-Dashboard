@@ -17,6 +17,19 @@
                     }
                 }
             },
+          
+          propertyName: {
+                validators: {
+                      stringLength: {
+                          min: 15,
+                      },
+                        notEmpty: {
+                          message: 'Please supply the community name'
+                        }
+                }
+          },
+          
+          
              last_name: {
                 validators: {
                      stringLength: {
