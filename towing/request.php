@@ -117,7 +117,7 @@
                <div class="col-md-4 inputGroupContainer">
                   <div class="input-group">
                      <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-                     <input name="city" class="form-control"  type="text" name="city" readonly value="Glen Burnie">
+                     <input name="city" class="form-control"  type="text" readonly value="Glen Burnie">
                   </div>
                </div>
             </div>
@@ -202,7 +202,7 @@
                   <div class="col-md-4 selectContainer">
                      <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-                        <select name="model" class="form-control selectpicker">
+                        <select name="carMake" class="form-control selectpicker">
                            <option value=" " >Please select car model</option>
                            <option value="ACURA">ACURA</option>
                            <option value="ASTON MARTIN">ASTON MARTIN</option>
@@ -257,7 +257,7 @@
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                        <input name="model" placeholder="Model" class="form-control"  type="text">
+                        <input name="carModel" placeholder="Model" class="form-control"  type="text">
                      </div>
                   </div>
                </div>
@@ -266,7 +266,7 @@
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                        <input name="plate" placeholder="plate" class="form-control"  type="text">
+                        <input name="carplate" placeholder="plate" class="form-control"  type="text">
                      </div>
                   </div>
                </div>
@@ -275,9 +275,8 @@
                   <div class="col-md-4 selectContainer">
                      <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-                        <select name="state" class="form-control selectpicker" >
+                        <select name="carState" class="form-control selectpicker" >
                            <option value=" " >Please select state</option>
-                            <option value=" " >Please select your state</option>
                         <option value="Alabama">Alabama</option>
                         <option value="Alaska">Alaska</option>
                         <option value="Arizona">Arizona</option>
@@ -338,7 +337,7 @@
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                        <input name="color" placeholder="color" class="form-control"  type="text">
+                        <input name="carColor" placeholder="color" class="form-control"  type="text">
                      </div>
                   </div>
                </div>
