@@ -266,7 +266,7 @@
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                        <input name="carplate" placeholder="plate" class="form-control"  type="text">
+                        <input name="carPlate" placeholder="plate" class="form-control"  type="text">
                      </div>
                   </div>
                </div>
@@ -365,7 +365,7 @@
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-                        <input name="location" class="form-control"  value="Location of Tow" type="text">
+                        <input name="carLocation" class="form-control"  placeholder="Location of Tow" type="text">
                      </div>
                   </div>
                </div>

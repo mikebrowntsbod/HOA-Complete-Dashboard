@@ -17,6 +17,85 @@
                     }
                 }
             },
+
+	 carMake: {
+		validators: {
+			stringLength: {
+			min: 2,
+		},
+			notEmpty: {
+			message: 'Please supply a car make'
+			}
+		}
+	},
+
+	towReason: {
+		validators: {
+			notEmpty: {
+			message: 'Please supply a tow reason'
+			}
+		}
+	},
+
+	carLocation: {
+		validators: {
+			stringLength: {
+			min: 10,
+		},
+			notEmpty: {
+			message: 'Please supply a location of the vehicle'
+			}
+		}
+	},
+
+
+	carModel: {
+		validators: {
+			stringLength: {
+			min: 2,
+		},
+			notEmpty: {
+			message: 'Please supply a car model'
+			}
+		}
+	},
+
+	carPlate: {
+		validators: {
+			stringLength: {
+			min: 2,
+		},
+
+			notEmpty: {
+			message: 'Please supply a car license plate'
+			}
+		}
+	},
+
+	carState: {
+		validators: {
+			stringLength: {
+			min: 2,
+		},
+
+			notEmpty: {
+			message: 'Please supply a car state'
+			}
+		}
+	},
+
+	carColor: {
+		validators: {
+			stringLength: {
+			min: 2,
+		},
+			notEmpty: {
+			message: 'Please supply a car color'
+			}
+		}
+	},
+
+	
           
           propertyName: {
                 validators: {
