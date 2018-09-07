@@ -78,7 +78,7 @@
    {
       foreach($_POST['towReason'] as $selected)
       {
-         echo $selected."</br>";
+         echo "Test $selected </br>";
       }
    }
       
