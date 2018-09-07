@@ -74,9 +74,9 @@
     }
    echo "</table>";
       
-   if(!empty($_POST['check_list']))
+   if(!empty($_POST['towReason']))
    {
-      foreach($_POST['check_list'] as $selected)
+      foreach($_POST['towReason'] as $selected)
       {
          echo $selected."</br>";
       }
