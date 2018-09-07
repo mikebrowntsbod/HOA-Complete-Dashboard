@@ -58,7 +58,7 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-<table>
+<table border="3">
 <?php 
 
 
