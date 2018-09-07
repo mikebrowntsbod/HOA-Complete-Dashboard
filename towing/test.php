@@ -58,9 +58,9 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-<table border="3">
-<?php 
 
+<?php 
+   echo '<table border="3">';
 
     foreach ($_POST as $key => $value) {
         echo "<tr>";
@@ -72,9 +72,6 @@
         echo "</td>";
         echo "</tr>";
     }
-
-
-?>
-</table>
-   </body>
+   echo "</table>";
+?>   </body>
 </html>
