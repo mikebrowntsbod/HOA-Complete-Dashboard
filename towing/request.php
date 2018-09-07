@@ -62,7 +62,7 @@
 
 
       <div class="container">
-         <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+         <form class="well form-horizontal" action="test.php" method="post"  id="contact_form">
             <fieldset>
             <!-- Form Name -->
             <legend>Request a Tow</legend>
