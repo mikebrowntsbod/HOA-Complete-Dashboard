@@ -377,18 +377,18 @@
                   <div class="col-md-4">
                      <div class="radio">
                         <label>
-                        <input type="checkbox" name="towReason" value="Unauthorized Handicap Parking" />Unauthorized Handicap Parking<br />
-                        <input type="checkbox" name="towReason" value="Unauthorized Parking" />Unauthorized Parking<br />
-                        <input type="checkbox" name="towReason" value="No Tags/Registration" />No Tags/Registration<br />
-                        <input type="checkbox" name="towReason" value="Expired Tags" />Expired Tags (Requires 72 hour Warning Period)<br />
-                        <input type="checkbox" name="towReason" value="Abandoned" />Abandoned<br />
-                        <input type="checkbox" name="towReason" value="Inoperable" />Inoperable<br />
-                        <input type="checkbox" name="towReason" value="No Parking Permit" />No Parking Permit<br />
-                        <input type="checkbox" name="towReason" value="Invalid Permit" />Invalid Permit<br />
-                        <input type="checkbox" name="towReason" value="Parking In Reserve Spot" />Parking in Reserve Spot<br />
-                        <input type="checkbox" name="towReason" value="Parking In Fire Lane" />Parking in Fire Lane<br  />
-			<input type="checkbox" name="towReason" value="Parking In No Parking Area" />Parking in No Parking Area<br  />
-			<input type="checkbox" name="towReason" value="Other" />Other<br />
+                        <input type="checkbox" name="towReason[]" value="Unauthorized Handicap Parking" />Unauthorized Handicap Parking<br />
+                        <input type="checkbox" name="towReason[]" value="Unauthorized Parking" />Unauthorized Parking<br />
+                        <input type="checkbox" name="towReason[]" value="No Tags/Registration" />No Tags/Registration<br />
+                        <input type="checkbox" name="towReason[]" value="Expired Tags" />Expired Tags (Requires 72 hour Warning Period)<br />
+                        <input type="checkbox" name="towReason[]" value="Abandoned" />Abandoned<br />
+                        <input type="checkbox" name="towReason[]" value="Inoperable" />Inoperable<br />
+                        <input type="checkbox" name="towReason[] value="No Parking Permit" />No Parking Permit<br />
+                        <input type="checkbox" name="towReason[]" value="Invalid Permit" />Invalid Permit<br />
+                        <input type="checkbox" name="towReason[]" value="Parking In Reserve Spot" />Parking in Reserve Spot<br />
+                        <input type="checkbox" name="towReason[]" value="Parking In Fire Lane" />Parking in Fire Lane<br  />
+			<input type="checkbox" name="towReason[]" value="Parking In No Parking Area" />Parking in No Parking Area<br  />
+			<input type="checkbox" name="towReason[]" value="Other" />Other<br />
 
 
                         </label>
