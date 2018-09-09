@@ -103,9 +103,7 @@
    
    $towReasonOther=$_POST['towReasonOther'];
    $comment=$_POST['towReasonOther'];
-   
-      echo sizeof($towReason);
-     
+        
 ?>   
    </body>
 </html>
