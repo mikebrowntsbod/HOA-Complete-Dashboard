@@ -74,7 +74,8 @@
         echo "</tr>";
     }
    echo "</table>";
-      
+            $towReason=$_POST['towReason']
+
    if(!empty($_POST['towReason']))
    {
       foreach($_POST['towReason'] as $selected)
@@ -102,6 +103,8 @@
    $towReasonOther=$_POST['towReasonOther'];
    $comment=$_POST['towReasonOther'];
    
+      echo sizeof($towReason);
+
    
       
 ?>   </body>
