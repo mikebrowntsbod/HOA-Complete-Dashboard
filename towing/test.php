@@ -85,7 +85,7 @@
       }
    }
       
-   $firstName=$_POST['first_name	'];
+   $firstName=$_POST['first_name'];
    $lastName=$_POST['last_name'];
    $email=$_POST['email'];
       
