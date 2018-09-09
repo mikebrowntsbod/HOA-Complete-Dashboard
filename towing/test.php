@@ -62,7 +62,8 @@
 <?php 
    echo '<table border="3">';
 
-    foreach ($_POST as $key => $value) {
+    foreach ($_POST as $key => $value) 
+    {
         echo "<tr>";
         echo "<td>";
         echo $key;
@@ -81,6 +82,27 @@
          echo "Test $selected </br>";
       }
    }
+      
+   $firstName=$_POST['first_name	'];
+   $lastName=$_POST['last_name'];
+   $email=$_POST['email'];
+      
+   $propertyName=$_POST['propertyName'];
+   $propertyCity=$_POST['city'];
+   $propertyState=$_POST['state'];
+   $propertyZip=$_POST['zip'];
+      
+   $carMake=$_POST['carMake'];
+   $carModel=$_POST['carModel'];
+   $carPlate=$_POST['carPlate'];
+   $carState=$_POST['carState'];
+   $carColor=$_POST['carColor'];
+   $carLocation=$_POST['carLocation'];
+   
+   $towReasonOther=$_POST['towReasonOther'];
+   $comment=$_POST['towReasonOther'];
+   
+   
       
 ?>   </body>
 </html>
