@@ -102,7 +102,7 @@
    $carLocation=$_POST['carLocation'];
    
    $towReasonOther=$_POST['towReasonOther'];
-   $comment=$_POST['towReasonOther'];
+   $comment=$_POST['comment'];
         
 ?>   
    </body>
