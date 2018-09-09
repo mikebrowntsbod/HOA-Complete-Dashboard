@@ -388,6 +388,7 @@
                         <input type="checkbox" name="towReason[]" value="Parking In Reserve Spot" />Parking in Reserve Spot<br />
                         <input type="checkbox" name="towReason[]" value="Parking In Fire Lane" />Parking in Fire Lane<br  />
 			<input type="checkbox" name="towReason[]" value="Parking In No Parking Area" />Parking in No Parking Area<br  />
+			<input type="checkbox" name="towReason[]" value="Long Term Parking Violation" />Long Term Parking Violation<br />
 			<input type="checkbox" name="towReason[]" value="Other" />Other<br />
 
 
