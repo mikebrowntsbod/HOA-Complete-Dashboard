@@ -75,16 +75,6 @@
     }
    echo "</table>";
             
-
-   if(!empty($_POST['towReason']))
-   {
-      $towReasons = $_POST['towReason'];
-      foreach($towReasons as $towReason=>$value)
-      {
-         echo "Tow Reason: " .$value."<br />";
-      }
-   }
-      
    $firstName=$_POST['first_name'];
    $lastName=$_POST['last_name'];
    $email=$_POST['email'];
@@ -103,6 +93,25 @@
    
    $towReasonOther=$_POST['towReasonOther'];
    $comment=$_POST['comment'];
+
+
+     if ($firstName != "")
+     {
+        if (strlen($firstName) < 3)
+        {
+           exit;
+        }
+        if (strlen($firstName) > 20)
+        {
+           exit;
+        }
+     }
+      else
+      {
+         echo "There was a problem with the value entered for first name";
+      }
+      
+
         
 ?>   
    </body>
