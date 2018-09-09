@@ -74,13 +74,14 @@
         echo "</tr>";
     }
    echo "</table>";
-            $towReason=$_POST['towReason'];
+            
 
    if(!empty($_POST['towReason']))
    {
-      foreach($_POST['towReason'] as $selected)
+      $towReasons = $_POST['towReason'];
+      foreach($towReasons as $towReason=>$value))
       {
-         echo "Test $selected </br>";
+         echo "Tow Reason: " .$value."<br />";
       }
    }
       
@@ -104,8 +105,7 @@
    $comment=$_POST['towReasonOther'];
    
       echo sizeof($towReason);
-
-   
-      
-?>   </body>
+     
+?>   
+   </body>
 </html>
