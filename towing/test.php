@@ -74,7 +74,7 @@
         echo "</tr>";
     }
    echo "</table>";
-            $towReason=$_POST['towReason']
+            $towReason=$_POST['towReason'];
 
    if(!empty($_POST['towReason']))
    {
