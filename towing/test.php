@@ -79,7 +79,7 @@
    if(!empty($_POST['towReason']))
    {
       $towReasons = $_POST['towReason'];
-      foreach($towReasons as $towReason=>$value))
+      foreach($towReasons as $towReason=>$value)
       {
          echo "Tow Reason: " .$value."<br />";
       }
