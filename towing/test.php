@@ -75,14 +75,14 @@
     }
    echo "</table>";
             
-   $firstName=$_POST['first_name'];
-   $lastName=$_POST['last_name'];
+   $firstName=$_POST['first_name']; //completed
+   $lastName=$_POST['last_name']; //completed
    $email=$_POST['email'];
       
-   $propertyName=$_POST['propertyName'];
-   $propertyCity=$_POST['city'];
-   $propertyState=$_POST['state'];
-   $propertyZip=$_POST['zip'];
+   $propertyName=$_POST['propertyName']; //completed
+   $propertyCity=$_POST['city']; //completed
+   $propertyState=$_POST['state']; //completed
+   $propertyZip=$_POST['zip']; //completed
       
    $carMake=$_POST['carMake'];
    $carModel=$_POST['carModel'];
@@ -111,6 +111,41 @@
          echo "There was a problem with the value entered for first name";
       }
       
+        if ($lastName != "")
+     {
+        if (strlen($lastName) < 3)
+        {
+           exit;
+        }
+        if (strlen($lastName) > 20)
+        {
+           exit;
+        }
+     }
+      else
+      {
+         echo "There was a problem with the value entered for first name";
+      }
+      
+      if ( $propertyName != "Tanyard Springs" )
+      {
+         echo "There is a problem with the value entered for Property Name";
+      }
+      
+      if ( $propertyCity != "Glen Burnie" )
+      {
+         echo "There is a problem with the value entered for Property City";
+      }
+      
+      if ( $propertyState != "Maryland" )
+      {
+         echo "There is a problem with the value entered for Property State";
+      }
+      
+      if ( $propertyZip != "21060" )
+      {
+         echo "There is a problem with the value entered for Property Zip Code";
+      }
 
         
 ?>   
