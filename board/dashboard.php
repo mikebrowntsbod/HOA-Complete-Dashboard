@@ -46,12 +46,12 @@ header('location: index.php');
   <div class="subnavbar-inner">
     <div class="container">
       <ul class="mainnav">
-        <li class="active"><a href="dashboard.php"><i class="icon-dashboard"></i><span>Dashboard</span> </a> </li>
-	<li> <a href ="add.php"><i class ="icon-dashboard"></i><span>Add Motion</span></a></li>
-	<li><a href="vote.php"><i class ="icon-dashboard"></i><span>Vote</span></a></li>
-	<li><a href="discussions.php"><i class ="icon-dashboard"></i><span>Discussions</span></a></li>
-	<li><a href="userprefs.php"><i class ="icon-dashboard"></i><span>Prefences</span></a></li>
-         <li><a href="logout.php"><i class="icon-dashboard"></i><span>Logout</span></a> </li>
+        <li class="active"><a href="dashboard.php"><em class="icon-dashboard"></em><span>Dashboard</span> </a> </li>
+	<li> <a href ="add.php"><em class ="icon-dashboard"></em><span>Add Motion</span></a></li>
+	<li><a href="vote.php"><em class ="icon-dashboard"></em><span>Vote</span></a></li>
+	<li><a href="discussions.php"><em class ="icon-dashboard"></em><span>Discussions</span></a></li>
+	<li><a href="userprefs.php"><em class ="icon-dashboard"></em><span>Prefences</span></a></li>
+         <li><a href="logout.php"><em class="icon-dashboard"></em><span>Logout</span></a> </li>
 
       </ul>
     </div>
@@ -67,7 +67,7 @@ header('location: index.php');
 	      <div class="alert alert-danger" role="alert">
   		<strong>MESSAGE:</strong>This system will be going offline starting at 9:00p.m. on Friday September 29, 2017 until 12:00 a.m. on Saturday September 30, 2017
 	      </div>
-	<table border="1" width="100%" cellpadding="10">
+	<table border="1">
 		<tr>
 			<th>Date Added</th>
 			<th>Session</th>

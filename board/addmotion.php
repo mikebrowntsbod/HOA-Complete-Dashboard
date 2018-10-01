@@ -5,14 +5,15 @@
 		header('location: index.php');
 	}
 ?>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Adding Motion</title>
 </head>
 <body>
 	<?php
+		$userid=$_['user_id'];
 		include_once('include/db-config.php');
-		//include_once('mail.php');
 		function addmailing($votesmotionid, $boardEmail)
 		{
 			global $db_con;
@@ -86,16 +87,12 @@
 		
 			else
 			{
-				//$today=date("Y-m-d H:i:s");
 				$disposition="IN PROGRESS";
-				//$motionstatement= $db_con->prepare ("INSERT into motions (Session, motion_name,motion_description,
-				//dateadded,motion_disposition) VALUES (:session, :name, :motion, :dateadded, :disposition)");
 				$motionstatement= $db_con->prepare ("INSERT into motions (Session, motion_name,motion_description,
 				motion_disposition) VALUES (:session, :name, :motion, :disposition)");
 				$motionstatement -> bindParam(':session',$boardsession);
 				$motionstatement -> bindParam(':name',$motionname);
 				$motionstatement -> bindParam(':motion',$motiontext);
-				//$motionstatement -> bindParam(':dateadded',$today);
 				$motionstatement -> bindParam(':disposition',$disposition);
 				$motionstatement->execute();
 				echo "Added motion to the database .... ";
@@ -111,13 +108,13 @@
 					$vote = "MOTIONED";
 					$auditMotionAdd = $db_con->prepare 
 						("INSERT into audit (user_id, action) VALUE (:users_id, :action)");
-					$auditMotionAdd -> bindParam(':users_id',$_SESSION['user_id']);
+					$auditMotionAdd -> bindParam(':users_id',$userid);
 					$action="Added motion id " . $votesmotionid;
 					$auditMotionAdd -> bindParam(':action',$vote);
 					$auditMotionAdd -> execute();
 					
 					$votestatement = $db_con->prepare ("INSERT into votes (users_id,motions_id,vote) VALUES (:users_id, :motion_id, :vote)");
-					$votestatement -> bindParam(':users_id', $_SESSION['user_id']);
+					$votestatement -> bindParam(':users_id', $userid);
 					$votestatement -> bindParam(':motion_id', $votesmotionid);
 					$votestatement -> bindParam(':vote', $vote);
 					$votestatement->execute();
