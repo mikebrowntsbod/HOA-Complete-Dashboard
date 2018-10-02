@@ -74,7 +74,7 @@
                   <label class="col-md-4 control-label">First Name</label>  
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <span class="input-group-addon"><em class="glyphicon glyphicon-user"></em></span>
                         <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
                      </div>
                   </div>
@@ -84,7 +84,7 @@
                   <label class="col-md-4 control-label" >Last Name</label> 
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <span class="input-group-addon"><em class="glyphicon glyphicon-user"></em></span>
                         <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
                      </div>
                   </div>
@@ -94,7 +94,7 @@
                   <label class="col-md-4 control-label">E-Mail</label>  
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                        <span class="input-group-addon"><em class="glyphicon glyphicon-envelope"></em></span>
                         <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
                      </div>
                   </div>
@@ -107,7 +107,7 @@
                <label class="col-md-4 control-label">Property Name</label>  
                <div class="col-md-4 inputGroupContainer">
                   <div class="input-group">
-                     <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                     <span class="input-group-addon"><em class="glyphicon glyphicon-home"></em></span>
                      <input name="propertyName"type="text" readonly value="Tanyard Springs" class="form-control">
                   </div>
                </div>
@@ -117,7 +117,7 @@
                <label class="col-md-4 control-label">City</label>  
                <div class="col-md-4 inputGroupContainer">
                   <div class="input-group">
-                     <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                     <span class="input-group-addon"><em class="glyphicon glyphicon-home"></em></span>
                      <input name="city" class="form-control"  type="text" readonly value="Glen Burnie">
                   </div>
                </div>
@@ -127,7 +127,7 @@
                <label class="col-md-4 control-label">State</label>
                <div class="col-md-4 selectContainer">
                   <div class="input-group">
-                     <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                     <span class="input-group-addon"><em class="glyphicon glyphicon-list"></em></span>
                      <input name="state" class="form-control" type="text" readonly value="Maryland">
                      <!--<select name="state" class="form-control selectpicker" <>
                         <option value=" " >Please select your state</option>
@@ -191,7 +191,7 @@
                <label class="col-md-4 control-label">Zip Code</label>  
                <div class="col-md-4 inputGroupContainer">
                   <div class="input-group">
-                     <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                     <span class="input-group-addon"><em class="glyphicon glyphicon-home"></em></span>
                      <input name="zip" class="form-control"  readonly value="21060" type="text">
                   </div>
                </div>
@@ -202,7 +202,7 @@
                   <label class="col-md-4 control-label">Make</label>
                   <div class="col-md-4 selectContainer">
                      <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                        <span class="input-group-addon"><em class="glyphicon glyphicon-list"></em></span>
                         <select name="carMake" class="form-control selectpicker">
                            <option value=" " >Please select car model</option>
                            <option value="ACURA">ACURA</option>
@@ -257,7 +257,7 @@
                   <label class="col-md-4 control-label">Model</label>
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                        <span class="input-group-addon"><em class="glyphicon glyphicon-envelope"></em></span>
                         <input name="carModel" placeholder="Model" class="form-control"  type="text">
                      </div>
                   </div>
@@ -266,7 +266,7 @@
                   <label class="col-md-4 control-label">Plate</label>
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                        <span class="input-group-addon"><em class="glyphicon glyphicon-envelope"></em></span>
                         <input name="carPlate" placeholder="plate" class="form-control"  type="text">
                      </div>
                   </div>
@@ -275,7 +275,7 @@
                   <label class="col-md-4 control-label">State</label>
                   <div class="col-md-4 selectContainer">
                      <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                        <span class="input-group-addon"><em class="glyphicon glyphicon-list"></em></span>
                         <select name="carState" class="form-control selectpicker" >
                            <option value=" " >Please select state</option>
                         <option value="Alabama">Alabama</option>
@@ -337,7 +337,7 @@
                   <label class="col-md-4 control-label">Color</label>
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                        <span class="input-group-addon"><em class="glyphicon glyphicon-envelope"></em></span>
                         <input name="carColor" placeholder="color" class="form-control"  type="text">
                      </div>
                   </div>
@@ -365,7 +365,7 @@
                   <label class="col-md-4 control-label">Location</label>
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                        <span class="input-group-addon"><em class="glyphicon glyphicon-home"></em></span>
                         <input name="carLocation" class="form-control"  placeholder="Location of Tow" type="text">
                      </div>
                   </div>
@@ -384,7 +384,7 @@
                         <input type="checkbox" name="towReason[]" value="Expired Tags" />Expired Tags (Requires 72 hour Warning Period)<br />
                         <input type="checkbox" name="towReason[]" value="Abandoned" />Abandoned<br />
                         <input type="checkbox" name="towReason[]" value="Inoperable" />Inoperable<br />
-                        <input type="checkbox" name="towReason[] value="No Parking Permit" />No Parking Permit<br />
+                        <input type="checkbox" name="towReason[]" value="No Parking Permit" />No Parking Permit<br />
                         <input type="checkbox" name="towReason[]" value="Invalid Permit" />Invalid Permit<br />
                         <input type="checkbox" name="towReason[]" value="Parking In Reserve Spot" />Parking in Reserve Spot<br />
                         <input type="checkbox" name="towReason[]" value="Parking In Fire Lane" />Parking in Fire Lane<br  />
@@ -401,7 +401,7 @@
                   <label class="col-md-4 control-label">Other<br />Required if tow reason is other</label>
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <span class="input-group-addon"><em class="glyphicon glyphicon-user"></em></span>
                         <input  name="towReasonOther" placeholder="Other Tow Reason" class="form-control"  type="text">
                      </div>
                   </div>
@@ -413,14 +413,14 @@
                   <label class="col-md-4 control-label">Other Information</label>
                   <div class="col-md-4 inputGroupContainer">
                      <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <span class="input-group-addon"><em class="glyphicon glyphicon-user"></em></span>
                         <textarea rows="4" cols="50" name="comment"></textarea>
                      </div>
                   </div>
                </div>
             </fieldset>
             <!-- Success message -->
-            <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+            <div class="alert alert-success" role="alert" id="success_message">Success <em class="glyphicon glyphicon-thumbs-up"></em> Thanks for contacting us, we will get back to you shortly.</div>
             <!-- Button -->
             <div class="form-group">
                <label class="col-md-4 control-label"></label>
