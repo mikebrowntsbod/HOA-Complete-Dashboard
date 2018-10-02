@@ -26,9 +26,9 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="index.php">Home</a></li>
-        <li class="active"><a href="request.php">Request<span class="sr-only">(Current)</span></a></li>
+     <ul class="nav navbar-nav">
+        <li class="active"><a href="index.php">Home</a></li>
+        <li><a href="request.php">Request<span class="sr-only">(Current)</span></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -55,7 +55,8 @@
           </ul>
         </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
+
+	</div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
