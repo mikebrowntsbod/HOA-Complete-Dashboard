@@ -3,13 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Test</title>
-  
+		<style>
+			  table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+		</style>
 	</head>
 
 	<body>
 		<form action="" method="POST"  enctype="multipart/form-data">
-			<h2 align="center"> Image Insertion...</h2>
-			<table align="center">
+			<h2 style="text-align:center;"> Image Insertion...</h2>
+			<table class="center">
 				<tr>
 					<td><label>Image</label></td>
 					<td><label>:</label></td>
@@ -26,10 +31,9 @@
 
 
 		<?php
-			if(isset($_POST['save_btn']))
+			if((isset($_POST['save_btn'])) && if ($con = mysqli_connect('localhost','root','K9fuw4p123#','test')))
 			{
-				if ($con = mysqli_connect('localhost','root','K9fuw4p123#','test'))
-				{
+
 					$filetemp = $_FILES['img']['tmp_name'];
 					$filename = $_FILES['img']['name'];
 					$filetype = $_FILES['img']['type'];
@@ -47,8 +51,6 @@
 					{
 						echo "Image Failed!!!";
 					}
-				}
-
 			}
 		?>
 	</body>
